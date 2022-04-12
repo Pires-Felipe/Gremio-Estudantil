@@ -1,39 +1,77 @@
 
 /* index.html */ 
 
-.nave, .conteudo {
+.cabecalho {
 	display: flex;
+	background: #EBEBEB;
 } 
 
+h1 {
+	position: absolute;
+	font-family: times;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 180px;
+	margin-left: 45px;
+	word-spacing: 6px;
+	letter-spacing: 1px;
+	line-height: 55px;
+}
+
+strong {
+	color: #0016FA;
+}
+
+
 .acesse {
-	width: 80px;
-	Height: 20px;
-	padding-top: 5px;
-	text-align: center;
-	margin-top: 24px;
+	position: absolute;
+	width: 120px;
+	height: 9px;
 	text-decoration: none;
+	margin-top: 360px;
+	margin-left: 120px;
+	text-align: center;
+	border-radius: 30px;
 	font-weight: bold;
 	color: #FFFFFF;
 	background: #1283FF;
-	font-size: 20px;
-	margin-left: 800px;
+	font-size: 25px;
+	padding: 15px;
+	
 }
 
 .img {
+	margin-left: 450px;
 	margin-top: 50px;
 	width: 55%;
 }
 
-.icon {
-	width: 8%;
-	Height: 8%;
+.caixa-classe {
+	display: flex;
+	justify-content: space-around;
+	margin-block: 100px;
 }
 
-p {
-	margin-top: 210px;
-	font-size: 24px;
-	font-weight: bold;
-	width: 360px;
+.caixa {
+	background: #E8E8E8;
+	width: 240px;
+	border: 2px solid #E0E0E0;
+	text-align: center;
+	padding: 15px;
+	font-family: sans-serif;
+	font-size: 22px;
+	color:#000000;
+	
+}
+
+.icon {
+	width: 90px;
+	Height: 90px;
+	margin-left: 15px;
+}
+
+.faq {
+	margin-block-end: 330px;
 }
 
 .question {
@@ -62,3 +100,21 @@ p {
   color: #222222;
 }
 
+.fim {
+	width: 250px;
+	height: 150px;
+}
+
+
+.rodape {
+	background: #EBEBEB;
+	text-align: center;
+	padding-top: 120px;
+	padding-block-end: 10px;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-around;
+
+}
