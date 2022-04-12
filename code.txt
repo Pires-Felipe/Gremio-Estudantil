@@ -1,0 +1,16 @@
+
+	<div class='question'>
+		<input type='checkbox' id='question-1'>
+		<label for='question-1'>Primeira pergunta?</label>
+		<div class='answer'>
+			Primeira resposta.
+		</div>
+	</div>
+	
+	<div class='question'>
+		<input type='checkbox' id='question-2'>
+		<label for='question-2'>Segunda pergunta?</label>
+		<div class='answer'>
+			Segunda resposta.
+		</div>
+	</div>
