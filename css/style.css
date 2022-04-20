@@ -55,14 +55,15 @@ strong {
 
 .caixa {
 	background: #E8E8E8;
-	width: 240px;
-	border: 2px solid #3C4DFF;
+	width: 280px;
+	border: 2px solid #000000;
 	border-radius: 9px;
 	text-align: center;
 	padding: 15px;
 	font-family: sans-serif;
 	font-size: 22px;
 	color:#000000;
+	box-shadow: 0 0 1em rgb(13, 5, 79), 0 0 1em black;
 }
 
 .caixa:hover {
@@ -87,9 +88,9 @@ strong {
 	font-size: 18px;
 	color: #0037CF;
 	width: 600px;
-   border: none;
-   background: #DCDCDC;
-   padding: 20px;
+    border: none;
+    background: #DCDCDC;
+    padding: 20px;
 }
 
 .question input,
