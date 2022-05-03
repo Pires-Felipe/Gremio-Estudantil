@@ -41,7 +41,7 @@ strong {
 	
 }
 
-.img {
+.img-principal {
 	margin-left: 450px;
 	margin-top: 50px;
 	width: 55%;
@@ -50,12 +50,12 @@ strong {
 .caixa-classe {
 	display: flex;
 	justify-content: space-around;
-	margin-block: 100px;
+	margin-block: 80px;
 }
 
 .caixa {
 	background: #E8E8E8;
-	width: 280px;
+	width: 270px;
 	border: 2px solid #000000;
 	border-radius: 9px;
 	text-align: center;
@@ -63,7 +63,7 @@ strong {
 	font-family: sans-serif;
 	font-size: 22px;
 	color:#000000;
-	box-shadow: 0 0 1em rgb(13, 5, 79), 0 0 1em black;
+	box-shadow: 0 0 1em #FFFFFF;
 }
 
 .caixa:hover {
@@ -73,8 +73,8 @@ strong {
 }
 
 .icon {
-	width: 90px;
-	Height: 90px;
+	width: 60px;
+	Height: 60px;
 	margin-left: 15px;
 }
 
