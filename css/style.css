@@ -174,8 +174,68 @@ nav a {
 /* pagina time */
 
 
-.body-time {
+body-time {
 	background-image: linear-gradient(to right top, #2323ee, #5820e4, #731fda, #8622d0, #9527c7, #7b4cdf, #5666f2, #007bff, #009cff, #00afde, #00ba96, #29be49);
 }
 
+.grupo-pessoas {
+	display: ;
+	justify-content: space-around;
+}
 
+.card {
+	display: flex;
+	width: 550px;
+	height: 280px;
+	padding: 35px;
+	border: 1px solid #050505;
+	margin-top: 50px;
+	margin-left: 2opx;
+}
+
+.pessoa-img {
+	margin-top: 20px;
+	width: 240px;
+	height: 240px;
+}
+
+
+.icon-rede-social{
+	width: 30px;
+	margin-top: 35px;
+	margin-left: 20px;
+}
+
+.conteudo-card {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	padding: 20px;
+}
+
+
+
+h2, h3, p {
+	display: inline-flexbox;
+	margin-top: 25px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+h3 {
+	color: #1e0afd;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+p {
+	font-style: italic;
+}
