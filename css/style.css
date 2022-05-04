@@ -3,15 +3,15 @@
 
 .cabecalho {
 	display: flex;
-	background: #EBEBEB;
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);;
 } 
 
 h1 {
 	position: absolute;
-	font-family: times;
+	font-family: verdana;
 	font-weight: bold;
-	font-size: 40px;
-	margin-top: 180px;
+	font-size: 38px;
+	margin-top: 210px;
 	margin-left: 45px;
 	word-spacing: 6px;
 	letter-spacing: 1px;
@@ -28,7 +28,7 @@ strong {
 	width: 120px;
 	height: 9px;
 	text-decoration: none;
-	margin-top: 360px;
+	margin-top: 430px;
 	margin-left: 120px;
 	text-align: center;
 	border-radius: 30px;
@@ -37,14 +37,14 @@ strong {
 	background: #1283FF;
 	font-size: 25px;
 	padding: 15px;
-	padding-block-end: 22px;
+	padding-block-end: 29px;
 	
 }
 
 .img {
-	margin-left: 450px;
-	margin-top: 50px;
+	margin-left: 560px;
 	width: 55%;
+	height: 650px;
 }
 
 .caixa-classe {
@@ -56,19 +56,19 @@ strong {
 .caixa {
 	background: #E8E8E8;
 	width: 280px;
-	border: 2px solid #000000;
+	border: 2px solid #dbdbdb;
 	border-radius: 9px;
 	text-align: center;
 	padding: 15px;
 	font-family: sans-serif;
 	font-size: 22px;
 	color:#000000;
-	box-shadow: 0 0 1em rgb(13, 5, 79), 0 0 1em black;
+	box-shadow: 0 0 1em black;
 }
 
 .caixa:hover {
-	background: #75FFFF;
-	border: 3px solid #000B81;
+	background: #e3e5e5;
+	border: 3px solid #b7b7b8;
 	
 }
 
@@ -80,17 +80,20 @@ strong {
 
 .faq {
 	margin-block-end: 330px;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .question {
 	margin-top: 15px;
-	margin-left: 190px;
 	font-size: 18px;
 	color: #0037CF;
-	width: 600px;
+	width: 700px;
     border: none;
     background: #DCDCDC;
-    padding: 20px;
+    padding: 30px;
 }
 
 .question input,
