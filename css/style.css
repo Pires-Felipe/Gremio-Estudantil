@@ -141,7 +141,8 @@ strong {
 
 }
 
-/* time */
+
+/* menu de navegar */
 
 
 .menu {
@@ -170,7 +171,11 @@ nav a {
 }
 
 
+/* pagina time */
 
 
+.body-time {
+	background-image: linear-gradient(to right top, #2323ee, #5820e4, #731fda, #8622d0, #9527c7, #7b4cdf, #5666f2, #007bff, #009cff, #00afde, #00ba96, #29be49);
+}
 
 
