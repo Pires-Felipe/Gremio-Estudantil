@@ -129,7 +129,6 @@ strong {
 
 
 .rodape {
-	backgroun: ;
 	text-align: center;
 	padding-top: 120px;
 	padding-block-end: 10px;
@@ -179,24 +178,26 @@ body-time {
 }
 
 .grupo-pessoas {
-	display: ;
-	justify-content: space-around;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .card {
 	display: flex;
-	width: 550px;
+	width: 440px;
 	height: 280px;
-	padding: 35px;
-	border: 1px solid #050505;
+	padding: 10px;
 	margin-top: 50px;
-	margin-left: 2opx;
+	margin-left: 15px;
+	borde: 1px solid blue;
 }
 
 .pessoa-img {
 	margin-top: 20px;
-	width: 240px;
-	height: 240px;
+	width: 210px;
+	height: 210px;
 }
 
 
@@ -205,6 +206,12 @@ body-time {
 	margin-top: 35px;
 	margin-left: 20px;
 }
+
+.redes-social {
+	margin-left: -80px;
+}
+
+
 
 .conteudo-card {
 	width: 300px;
@@ -238,4 +245,5 @@ h3 {
 
 p {
 	font-style: italic;
+	font-size: 18px;
 }
