@@ -44,16 +44,11 @@ strong {
 	
 }
 
-.img {
-	margin-left: 560px;
-}
-
-
 .img-principal {
-	margin-left: 450px;
-	margin-top: 50px;
+	margin-left: 400px;
+	margin-top: 0px;
 	width: 55%;
-	height: 650px;
+	height: auto;
 }
 
 .caixa-classe {
@@ -140,34 +135,6 @@ strong {
 
 }
 
-
-/* menu de navegar */
-
-
-.menu {
-	display: flex;
-	justify-content: right;
-	justify-items: right;
-	background: rgb(166, 162, 162);
-	height: 60px;
-}
-
-
-nav {
-	margin-top: 25px;
-	margin-right: 10%;
-}
-
-
-li {
-	display: inline;
-}
-
-nav a {
-	text-decoration: none;
-	color: black;
-	padding: 8px;
-}
 
 
 /* pagina time */
