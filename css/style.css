@@ -122,6 +122,10 @@ strong {
 	height: 150px;
 }
 
+#col {
+	transform: rotate(0.2deg);
+}
+
 
 .rodape {
 	text-align: center;

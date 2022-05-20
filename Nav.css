@@ -20,6 +20,12 @@ label.logo{
   padding: 0 100px;
   font-weight: bold;
 }
+
+.logo a {
+	text-decoration: none;
+	color: #2CE2EF;
+}
+
 nav ul{
   float: right;
   margin-right: 20px;
