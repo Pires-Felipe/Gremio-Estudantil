@@ -6,20 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/Nav.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="./css/icon.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
-  <body>
-  	
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-
-
-    <nav>
+<body>
+  	<nav>
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
+      <i class="fas fa-bars"></i>
       </label>
       <label class="logo"><a id="a-logo" href="index.html"><img id="logo-img" src="./img/logo.png" alt="logo do grêmio"></a></label>
       <ul>
@@ -28,68 +24,86 @@
         <li><a href="sobre.html">Sobre</a></li>
         <li><a href="contato.html">Contato</a></li>
       </ul>
-    </nav>
+   </nav>
     
     <div class="hi-user">
-    	<h1 class="hi-user-bomdia">Boa noite, <strong>Felipe</strong></h1>
+    	<h1 class="hi-user-bomdia">Boa tarde, <strong>Felipe</strong></h1>
     	<p>Confira as últimas notícias, recados e muito mais.</p>
     	<img id="hi-user-img" src="./img/hi-user.png" alt="olá usuário">
     </div>
-    <section>
     
-    	
-    	
-    	
-    	
-    	
+    
+    <!---navegação menu inicial--->
     	<div class="nav-bar-caixa">
-    		
-    		
-    
-    
-    
-    
     		<div class="item-caixa"> 
     			<a class="link" href="#"><span class="material-icons dashboard">dashboard</span>
     		   <h2>Dashaboard</h2>
     			<div style="display: none">
     			<div class="titulo"><h2>Dashaboard</h2></div>
-    			conteúdo dashboard.
-    			</div></a>
-    	  </div>
-    
-    
-    		<div class="item-caixa">
-    			<a class="link" href="#"><span class="material-icons" id="news">newspaper</span>
-    			<h2>Notícias</h2>
-    			<div style="display: none">
-    			<div class="titulo"><h2>Notícias</h2></div>
     			
-    			
-    			
-    			<!--- Noticia do feed --->
-    			<div class="noticia-feed">
-    				<div class="noticia-content">
-    					<img src="./img/news-1.jpg" style="width: 380px; height: 250px" alt="Notícia imagem">
-						<h1>Aluna é flagrada fumando atrás do Colégio</h1>
-						<p> Ultimas e a melhor jogadora de ff do mundo tbm é a pouco vou sair ok Vou ter q fazer serviços a tarde toda tossindo e espirrando a gente pode ser a tarde aí ainda </p>
-    				</div>
-    				
-    				
-    			<!--- Noticia fonte --->
-    				<div class="noticia-fonte">
-    					<img src="./img/noticia-pessoa-icon.png" alt="foto de perfil" style="width: 40px; height: 40px;">
-    					<h4>Felipe Miranda Pires</h4>
-    					<p><i>1 hora atrás</i></p>
+    			<div class="dashboard-caixa">
+    				<div class="dashboard-content">
+    					<span class="material-icons">report_problem</span>
+    					<h2>Atenção !<h2>
+    					<p>Site está em desenvolvimento, em caso de dúvidas, sugestões e reclamações contate-nos pelos meios abaixo.</p>
+    					<span class="material-icons">whatsapp</span>
     				</div>
     			</div>
-  
-  
-  
-    				
-    				
+    			
     			</div></a>
     	  </div>
+    
+    
+    
+   		<!--- Noticias --->
+    	<div class="item-caixa">
+    		<a class="link" href="#"><span class="material-icons" id="news">newspaper</span>
+    		<h2>Notícias</h2>
+   			<div style="display: none">
+	  			<div class="titulo"><h2>Notícias</h2></div>
+	  			
+	    		   		<!--- Noticia do feed --->
+	    		<div class="flex-content-noticia">
+   			<div class="noticia-feed-caixa">
+	    			<div class="noticia-content">
+	    				<img src="./img/news-1.jpg" style="width: 380px; height: 250px" alt="Notícia imagem">
+						<h1>Título da notícia vai aqui</h1>
+						<p>Notícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia noticia notiotícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia noticia noticia...</p>
+						<button id="ler-mais" onclick="tester()">ler mais</button>
+    				</div>
+	    					<!--- Noticia fonte --->
+	    		<div class="noticia-fonte-caixa">
+	    			<img src="./img/noticia-pessoa-icon.png" alt="foto de perfil" style="width: 45px; height: 45px; border-radius: 50%;">
+	    				<h4>Felipe Miranda Pires</h4>
+	  					<p><i>1 hora atrás</i></p>
+	  				</div>
+	    		</div>
+
+	    		  		<!--- Noticia do feed --->
+	    		  		<div class="noticia-feed-caixa">
+	    		  			<div class="noticia-content">
+	    		  				<img src="./img/news-1.jpg" style="width: 380px; height: 250px" alt="Notícia imagem">
+	    		  				<h1>Título da notícia vai aqui</h1>
+	    		  				<p>Notícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia noticia notiotícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia noticia noticia...</p>
+	    		  				<button id="ler-mais" onclick="tester()">ler mais</button>
+	    		  			</div>
+	    		  			<!--- Noticia fonte --->
+	    		  			<div class="noticia-fonte-caixa">
+	    		  				<img src="./img/noticia-pessoa-icon.png" alt="foto de perfil" style="width: 45px; height: 45px; border-radius: 50%;">
+	    		  				<h4>Felipe Miranda Pires</h4>
+	    		  				<p><i>1 hora atrás</i></p>
+	    		  			</div>
+	    		  		</div>
+	    		  	</div>
+	    		
+	    		
+		     </div></a>
+    	 </div>
+    	  
+    	  
+    	  
+    	  
+    	  
     	  
     	  
     		<div class="item-caixa">
@@ -103,17 +117,18 @@
     		
     		
     		<div class="item-caixa">
-    			<a class="link" href="#"><span class="material-icons" id="rank">leaderboard</span>
-    			<h2>Rank</h2>
+    			<a class="link" href="#"><span class="material-icons" id="project">assignment</span>
+    			<h2>Projetos</h2>
     			<div style="display: none">
-    				<div class="titulo"><h2>Rank</h2>
-    				</div>Conteúdo Rank
+    				<div class="titulo"><h2>Projetos</h2>
+    				</div>Conteúdo Projetos
     			</div></a>
     		</div>
     	</div>
     		
     		<div class="content"></div>
     		<script src="teste.js"></script>
+    		
     </section>
     
    
