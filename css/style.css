@@ -9,7 +9,7 @@
 	background-image: linear-gradient(to right top, #2323ee, #0065ff, #008bff, #00a8f4, #00c1e1, #2ab5d3, #3aa9c4, #449db6, #4d6f8e, #46455b, #2c232b, #000000);
 }
 
-h1 {
+.h1-index {
 	position: absolute;
 	font-family: verdana;
 	font-weight: bold;
@@ -224,3 +224,103 @@ p {
 	font-style: italic;
 	font-size: 18px;
 }
+
+
+/* inicio */
+
+.hi-user {
+	display: flex;
+	background: whitesmoke;
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+	height: 290px;
+	margin: 5% 0px 7% 5%;
+	border-radius: 79px;
+	padding: 20px;
+}
+
+.hi-user h1 {
+	margin: 0px 20px 0px 45px;
+	font-size: 47px;
+	
+}
+
+.hi-user p {
+	margin: 15px 0px 20px 45px;
+	font-size: 18px;
+	color: #494949;
+}
+
+#hi-user-img {
+	position: absolute;
+	margin-left: 45%;
+	width: 380px;
+   height: 280px;
+}
+
+
+.nav-bar-caixa {
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+	width: 90%;
+	height: 200px;
+}
+
+.item-caixa, .item-caixa a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 140px;
+	height: 150px;
+	background: #D3D5E5;
+	border-radius: 15px;
+}
+.item-caixa h2 {
+	font-size: 17px;
+	color: #777777;
+}
+
+.item-caixa a:active {
+	background: #0016FF;
+}
+
+
+.content {
+	border: 1px solid;
+	margin: auto;
+	width: 90%;
+	height: auto;
+	border-radius: 20px;
+}
+
+.titulo {
+	position: absolute;
+	margin-top: -320px;
+	margin-left: 5%;
+}
+
+.noticia-feed {
+	width: 380px;
+	height: 480px;
+	background: #EAEAEA;
+}
+
+.noticia-content img {
+	border-start-start-radius: 20px;
+	border-start-end-radius: 20px;
+}
+
+.noticia-content h1 {
+	margin: 10px;
+	font-size: 23px;
+}
+
+.noticia-content p {
+	margin: 8px;
+	color: #939393;
+	
+}
+
