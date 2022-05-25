@@ -1,0 +1,172 @@
+.hi-user {
+	display: flex;
+	background: rgb(213, 205, 205);
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+	height: 310px;
+	margin: 5% 0px 7% 5%;
+	border-radius: 79px;
+	padding: 20px;
+}
+
+.hi-user h1 {
+	margin: 0px 20px 0px 45px;
+	font-size: 47px;
+}
+
+strong {
+	color: #0015FF;
+}
+
+.hi-user p {
+	margin: 15px 0px 20px 45px;
+	font-size: 18px;
+	color: #494949;
+}
+
+#hi-user-img {
+	position: absolute;
+	margin-left: 45%;
+	width: 380px;
+   height: 280px;
+}
+
+
+.nav-bar-caixa {
+	display: flex;
+	justify-content: space-around;
+	margin: 30px auto;
+	width: 90%;
+	height: 200px;
+}
+
+.item-caixa, .item-caixa a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 140px;
+	background: #D3D5E5;
+	border-radius: 15px;
+}
+.item-caixa h2 {
+	font-size: 17px;
+	color: #777777;
+}
+
+.item-caixa a:active {
+	background: #0016FF;
+}
+
+
+
+/* caixa das seções*/
+.content {
+	margin-top: 80px;
+	
+}
+
+
+/* Notícia css */
+
+.flex-content-noticia {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: -50px auto;
+	
+}
+
+.noticia-feed-caixa {
+	margin: 15px;
+	width: 400px;
+	height: 480px;
+	border-radius: 20px;
+	background: #EAEAEA;
+}
+
+.noticia-content img {
+	border-start-start-radius: 20px;
+	border-start-end-radius: 20px;
+}
+
+.noticia-content h1 {
+	margin: 10px;
+	font-size: 23px;
+}
+
+.noticia-content p {
+	margin: 8px;
+	color: #939393;
+}
+
+#ler-mais {
+	margin: -2px 0px 0px 250px;
+	width: 80px;
+	height: 30px;
+	border: none;
+	background: #48C2FB;
+	color: #FAFDFF;
+}
+
+.noticia-fonte-caixa {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 10px;
+	padding: 8px;
+}
+
+.noticia-fonte-caixa h4 {
+	margin: 5px 0px 0px 10px;
+}
+
+.noticia-fonte-caixa p {
+	margin: 25px 0px 0px -120px;
+	font-size: 15px;
+	color: #494949;
+}
+
+
+
+/* dasboard */
+
+.dashboard-caixa {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.titulo-dashboard h2 {
+	position: absolute;
+	color: #1135b8;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25px;
+	margin: -100px 0px 0px 45%; 
+	text-transform: uppercase;
+}
+
+.dashboard-conteudo {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 650px;
+	margin: auto;
+	background: #0015FF;
+	color: white;
+	border-radius: 30px;
+	padding: 15px;
+}
+
+#aviso {
+	text-transform: uppercase;
+	font-family:  Segoe UI;
+	font-size: 22px;
+}
+
+#aviso-p {
+	color: #bdbac1;
+	font-size: 20px;
+	margin-top: 20px;
+	width: 450px;
+}

@@ -1,0 +1,84 @@
+.body-time {
+	background: #EEEEEE;
+	ackground-image: linear-gradient(to right top, #2323ee, #5820e4, #731fda, #8622d0, #9527c7, #7b4cdf, #5666f2, #007bff, #009cff, #00afde, #00ba96, #29be49);
+}
+
+.grupo-pessoas {
+	width: 95%;
+	margin: 200px auto 0px auto;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.pessoas {
+	margin: 0px auto 180px auto;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	padding: 15px;
+	width: 350px;
+	height: 320px;
+	background: #b8c4ce;
+	border-radius: 18px;
+	box-shadow: 0 0 2em #DFDFDF;
+} 
+
+
+.card p {
+	width: 250px;
+}
+
+.card h2 {
+	font-size: 18px;
+}
+
+.pessoa-img {
+	margin-top: -150px;
+	width: 170px;
+	height: 170px;
+	box-shadow: 0 0 1em;
+	border-radius: 50%;
+}
+
+
+.icon-rede-social{
+	width: 30px;
+}
+
+.redes-social {
+	display: flex;
+	width: 150px;
+	justify-content: space-between;
+	margin-top: 45px;
+}
+
+
+h2, h3, p {
+	display: inline-flexbox;
+	margin-top: 25px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+h3 {
+	color: #767676;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+p {
+	font-style: italic;
+	font-size: 18px;
+}

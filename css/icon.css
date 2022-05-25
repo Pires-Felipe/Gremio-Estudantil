@@ -1,10 +1,15 @@
 
-
 .material-icons.perfil{ padding: 9px 0; font-size: 70px; color: #0050FF;}
 .material-icons.info{padding-block-end: 10px; font-size: 15px;}
 .material-icons.home{color: red;}
 .material-icons.account{color: blue;font-size: 50px;}
 .material-icons.favorito{color:red ;}
+.material-icons.report{color: #f6db0a; font-size: 120px; margin: auto;}
+.material-icons.whatsapp{color: green; font-size: 35px; cursor: pointer; margin: 20px 0px 0px -180px }
+
+
+
+
 
 .item-caixa .material-icons {
 	font-size: 50px;
