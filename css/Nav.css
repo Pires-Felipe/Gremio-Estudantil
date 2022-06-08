@@ -11,7 +11,7 @@ body{
 }
 
 nav{
-  background: #88898d;
+  background: #9698a0;
   height: 80px;
   width: 100%;
 }
@@ -28,9 +28,9 @@ label.logo{
 }
 
 #logo-img {
-	width: 90px;
-	height: 90px;
-	margin-top: -15px;
+	width: 130;
+	height:80px;
+	margin-top: px;
 }
 
 nav ul{

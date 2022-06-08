@@ -3,18 +3,14 @@
 
 .cabecalho {
 	display: flex;
-}
-
-.body-index {
-	background-image: linear-gradient(to right top, #2323ee, #0065ff, #008bff, #00a8f4, #00c1e1, #2ab5d3, #3aa9c4, #449db6, #4d6f8e, #46455b, #2c232b, #000000);
+	margin-block-end: 250px;
 }
 
 .h1-index {
 	position: absolute;
 	font-family: verdana;
-	font-weight: bold;
-	font-size: 38px;
-	margin-top: 210px;
+	font-size: 36px;
+	margin-top: 80px;
 	margin-left: 45px;
 	word-spacing: 6px;
 	letter-spacing: 1px;
@@ -28,43 +24,36 @@ strong {
 
 .acesse {
 	position: absolute;
-	width: 120px;
-	height: 9px;
-	text-decoration: none;
-	margin-top: 430px;
-	margin-left: 120px;
-	text-align: center;
-	border-radius: 30px;
-	font-weight: bold;
-	color: #000000;
-	background: #1283FF;
-	font-size: 25px;
-	padding: 15px;
-	padding-block-end: 29px;
-	
+	margin: 280px 0px 0px 150px;
+	font-size: 30px;
+	color: #ded2d2;
+	border: 1px solid #0016FA;
+	background-color: #0016FA;
+	border-radius: 50px;
+	padding: 15px 30px 15px 30px;
+	cursor: pointer;
 }
 
 .img-principal {
-	margin-left: 400px;
-	margin-top: 0px;
-	width: 55%;
-	height: auto;
+	margin-left: 670px;
+	width: auto;
+	height: 480px;
 }
 
 .caixa-classe {
 	display: flex;
 	justify-content: space-around;
-	margin-block: 130px;
+	margin-block: 250px;
 }
 
 .caixa {
 	background: #E8E8E8;
-	width: 300px;
-	height: 300px;
+	width: 360px;
+	height: auto;
 	border: 2px solid #dbdbdb;
 	border-radius: 20px;
 	text-align: center;
-	padding: 10px;
+	padding: 20px 12px 20px 12px;
 	font-family: sans-serif;
 	font-size: 20px;
 	box-shadow: 0 0 19px;
@@ -74,12 +63,11 @@ strong {
 .caixa:hover {
 	background: #e3e5e5;
 	border: 3px solid #b7b7b8;
-	
 }
 
 .icon-index {
 	width: 120px;
-	height: 120px;
+	height: auto;
 }
 
 .faq {
@@ -94,8 +82,8 @@ strong {
 	margin-top: 15px;
 	font-size: 18px;
 	color: #0037CF;
-	width: 700px;
-    border: none;
+	width: 850px;
+    border-radius: 35px;
     background: #DCDCDC;
     padding: 30px;
 }
@@ -130,6 +118,7 @@ strong {
 	text-align: center;
 	padding-top: 120px;
 	padding-block-end: 10px;
+	background: #656161;
 }
 
 .logos {
@@ -137,12 +126,3 @@ strong {
 	justify-content: space-around;
 
 }
-
-
-
-/* pagina time */
-
-
-
-
-/* inicio */
