@@ -1,26 +1,23 @@
-
-/* index.html */ 
-
 .cabecalho {
 	display: flex;
+	width: 100%;
 	margin-block-end: 250px;
+	background: #ffffff;
 }
 
 .h1-index {
 	position: absolute;
 	font-family: verdana;
-	font-size: 36px;
-	margin-top: 80px;
-	margin-left: 45px;
+	font-size: 33px;
+	margin: 90px 0px 0px 50px;
 	word-spacing: 6px;
 	letter-spacing: 1px;
-	line-height: 55px;
+	line-height: 50px;
 }
 
 strong {
 	color: #0016FA;
 }
-
 
 .acesse {
 	position: absolute;
@@ -35,9 +32,14 @@ strong {
 }
 
 .img-principal {
-	margin-left: 670px;
+	position: relative;
+	margin-left: calc(100% - 780px);
 	width: auto;
 	height: 480px;
+}
+
+main {
+	background: linear-gradient(#f9f7f7,#a5a0a0,#b4b2b2);
 }
 
 .caixa-classe {
@@ -47,22 +49,22 @@ strong {
 }
 
 .caixa {
-	background: #E8E8E8;
-	width: 360px;
+	background: #d8d7d7;
+	width: 29%;
 	height: auto;
-	border: 2px solid #dbdbdb;
+	border: 2px solid none;
 	border-radius: 20px;
 	text-align: center;
 	padding: 20px 12px 20px 12px;
 	font-family: sans-serif;
 	font-size: 20px;
-	box-shadow: 0 0 19px;
+	box-shadow: 0 0 1px;
 
 }
 
 .caixa:hover {
-	background: #e3e5e5;
-	border: 3px solid #b7b7b8;
+	background: #80a1fc;
+	transform: scale(1.1);
 }
 
 .icon-index {

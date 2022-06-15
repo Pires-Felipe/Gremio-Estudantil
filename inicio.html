@@ -1,138 +1,158 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>inicio - gremio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/Nav.css">
-    <link rel="stylesheet" href="./css/inicio.css">
-    <link rel="stylesheet" href="./css/icon.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  </head>
-<body>
-  	<nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo"><a id="a-logo" href="index.html"><img id="logo-img" src="./img/gremio.png" alt="logo do grêmio"></a></label>
-      <ul>
-        <li><a class="active" href="inicio.html">Início</a></li>
-        <li><a href="time.html">Time</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-   </nav> 
-    
-    <div class="hi-user">
-    	<h1 class="hi-user-bomdia">Boa tarde, <strong>Felipe</strong></h1>
-    	<p>Confira as últimas notícias, recados e muito mais.</p>
-    	<img id="hi-user-img" src="./img/hi-user.png" alt="olá usuário">
-    </div>
-    
-    
-    <!---navegação menu inicial--->
-    	<div class="nav-bar-caixa">
-    		<div class="item-caixa"> 
-    			<a class="link" href="#"><span class="material-icons dashboard">dashboard</span>
-    		   <h2>Dashaboard</h2>
-    			<div style="display: none">
-    			<div class="titulo-dashboard"><h2>Dashaboard</h2></div>
-    			
-    			<div class="dashboard-caixa">
-    				<div class="dashboard-conteudo">
-    					<span class="material-icons report">report_problem</span>
-						<div class="dashboard-conteudo-text">
-    						<h1 id="aviso">Atenção !<h1>
-							<p id="aviso-p">Site está em desenvolvimento, em caso de dúvidas, sugestões e reclamações contate-nos pelos meios abaixo.</p>
-							<span onclick="whats();" class="material-icons whatsapp">whatsapp</span>
-							 </div>
-    				</div>
-    			</div>
-    			
-    			</div></a>
-    	  </div>
-    
-    
-    
-   		<!--- Noticias --->
-    	<div class="item-caixa">
-    		<a class="link" href="#"><span class="material-icons" id="news">newspaper</span>
-    		<h2>Notícias</h2>
-   			<div style="display: none">
-	  			<div class="titulo-noticia"><h2>Notícias</h2></div>
-	  			
-	    		   		<!--- Noticia do feed --->
-	    		<div class="flex-content-noticia">
-   			<div class="noticia-feed-caixa">
-	    			<div class="noticia-content">
-	    				<img src="./img/news-1.jpg" style="width: 400px; height: 250px" alt="Notícia imagem">
-						<h1>Título da notícia vai aqui</h1>
-						<p>Notícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia noticia notiotícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia noticia noticia...</p>
-						<button id="ler-mais" onclick="tester()">ler mais</button>
-    				</div>
-	    					<!--- Noticia fonte --->
-	    		<div class="noticia-fonte-caixa">
-	    			<img src="./img/noticia-pessoa-icon.png" alt="foto de perfil" style="width: 45px; height: 45px; border-radius: 50%;">
-	    				<h4>Felipe Miranda Pires</h4>
-	  					<p><i>1 hora atrás</i></p>
-	  				</div>
-	    		</div>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>inicio - gremio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/nav.css">
+	<link rel="stylesheet" href="./css/inicio.css">
+	<link rel="stylesheet" href="./css/icon.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
 
-	    		  		<!--- Noticia do feed --->
-	    		  		<div class="noticia-feed-caixa">
-	    		  			<div class="noti-cia-content">
-	    		  				<img src="./img/news-1.jpg" style="width: 400px; height: 250px" alt="Notícia imagem">
-	    		  				<h1>Título da notícia vai aqui</h1>
-	    		  				<p>Notícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia noticia notiotícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia noticia noticia...</p>
-	    		  				<button id="ler-mais" onclick="tester()">ler mais</button>
-	    		  			</div>
-	    		  			<!--- Noticia fonte --->
-	    		  			<div class="noticia-fonte-caixa">
-	    		  				<img src="./img/noticia-pessoa-icon.png" alt="foto de perfil" style="width: 45px; height: 45px; border-radius: 50%;">
-	    		  				<h4>Felipe Miranda Pires</h4>
-	    		  				<p><i>1 hora atrás</i></p>
-	    		  			</div>
-	    		  		</div>
-	    		  	</div>
-	    		
-	    		
-		     </div></a>
-    	 </div>
-    	  
-    	  
-    	  
-    	  
-    	  
-    	  
-    	  
-    		<div class="item-caixa">
-    			<a class="link" href="#"><span class="material-icons" id="notific">notifications</span>
-    			<h2>Avisos</h2>
-    			<div style="display: none">
-    				<div class="titulo-avisos"><h2>Avisos</h2>
-    				</div>Conteúdo Avisos
-    			</div></a>
-    		</div>
-    		
-    		
-    		<div class="item-caixa">
-    			<a class="link" href="#"><span class="material-icons" id="project">assignment</span>
-    			<h2>Projetos</h2>
-    			<div style="display: none">
-    				<div class="titulo-projetos"><h2>Projetos</h2>
-    				</div>Conteúdo Projetos
-    			</div></a>
-    		</div>
-    	</div>
-    		
-    		<div class="content"></div>
-    		<script src="teste.js"></script>
-    		
-    </section>
-    
-   
-  </body>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo"><a id="a-logo" href="index.html"><img id="logo-img" src="./img/gremio.png"
+					alt="logo do grêmio"></a></label>
+		<ul>
+			<li><a class="active" href="inicio.html">Início</a></li>
+			<li><a href="time.html">Time</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+
+	<div class="hi-user">
+		<h1 class="hi-user-bomdia">Boa tarde, <strong>Felipe</strong></h1>
+		<p>Confira as últimas notícias, recados e muito mais.</p>
+		<img id="hi-user-img" src="./img/hi-user.png" alt="olá usuário">
+	</div>
+
+
+	<!---navegação menu inicial--->
+	<div class="nav-bar-caixa">
+		<div class="item-caixa">
+			<a class="link" href="#"><span class="material-icons dashboard">dashboard</span>
+				<h2>Dashaboard</h2>
+				<div style="display: none">
+					<div class="titulo-dashboard">
+						<h2>Dashaboard</h2>
+					</div>
+
+					<div class="dashboard-caixa">
+						<div class="dashboard-conteudo">
+							<span class="material-icons report">report_problem</span>
+							<div class="dashboard-conteudo-text">
+								<h1 id="aviso">Atenção !<h1>
+										<p id="aviso-p">Site está em desenvolvimento, em caso de dúvidas, sugestões e
+											reclamações contate-nos pelos meios abaixo.</p>
+										<span onclick="whats();" class="material-icons whatsapp">whatsapp</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</a>
+		</div>
+
+
+
+		<!--- Noticias --->
+		<div class="item-caixa">
+			<a class="link" href="#"><span class="material-icons" id="news">newspaper</span>
+				<h2>Notícias</h2>
+				<div style="display: none">
+					<div class="titulo-noticia">
+						<h2>Notícias</h2>
+					</div>
+
+					<!--- Noticia do feed --->
+					<div class="flex-content-noticia">
+						<div class="noticia-feed-caixa">
+							<div class="noticia-content">
+								<img src="./img/news-1.jpg" style="width: 400px; height: 250px" alt="Notícia imagem">
+								<h1>Título da notícia vai aqui</h1>
+								<p>Notícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia
+									noticia notiotícia notícia noticia noticia Notícia notícia noticia noticia Notícia
+									notícia noticia noticia...</p>
+								<button id="ler-mais" onclick="tester()">ler mais</button>
+							</div>
+							<!--- Noticia fonte --->
+							<div class="noticia-fonte-caixa">
+								<img src="./img/noticia-pessoa-icon.png" alt="foto de perfil"
+									style="width: 45px; height: 45px; border-radius: 50%;">
+								<h4>Felipe Miranda Pires</h4>
+								<p><i>1 hora atrás</i></p>
+							</div>
+						</div>
+
+						<!--- Noticia do feed --->
+						<div class="noticia-feed-caixa">
+							<div class="noti-cia-content">
+								<img src="./img/news-1.jpg" style="width: 400px; height: 250px" alt="Notícia imagem">
+								<h1>Título da notícia vai aqui</h1>
+								<p>Notícia notícia noticia noticia Notícia notícia noticia noticia Notícia notícia
+									noticia notiotícia notícia noticia noticia Notícia notícia noticia noticia Notícia
+									notícia noticia noticia...</p>
+								<button id="ler-mais" onclick="tester()">ler mais</button>
+							</div>
+							<!--- Noticia fonte --->
+							<div class="noticia-fonte-caixa">
+								<img src="./img/noticia-pessoa-icon.png" alt="foto de perfil"
+									style="width: 45px; height: 45px; border-radius: 50%;">
+								<h4>Felipe Miranda Pires</h4>
+								<p><i>1 hora atrás</i></p>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</a>
+		</div>
+
+
+
+
+
+
+
+		<div class="item-caixa">
+			<a class="link" href="#"><span class="material-icons" id="notific">notifications</span>
+				<h2>Avisos</h2>
+				<div style="display: none">
+					<div class="titulo-avisos">
+						<h2>Avisos</h2>
+					</div>Conteúdo Avisos
+				</div>
+			</a>
+		</div>
+
+
+		<div class="item-caixa">
+			<a class="link" href="#"><span class="material-icons" id="project">assignment</span>
+				<h2>Projetos</h2>
+				<div style="display: none">
+					<div class="titulo-projetos">
+						<h2>Projetos</h2>
+					</div>Conteúdo Projetos
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<div class="content"></div>
+	<script src="teste.js"></script>
+
+	</section>
+
+
+</body>
+
 </html>

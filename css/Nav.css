@@ -11,8 +11,8 @@ body{
 }
 
 nav{
-  background: #9698a0;
-  height: 80px;
+  background: #313339;
+  height: 90px;
   width: 100%;
 }
 label.logo{
@@ -28,9 +28,8 @@ label.logo{
 }
 
 #logo-img {
-	width: 130;
-	height:80px;
-	margin-top: px;
+	width: 150px;
+	height: 85px;
 }
 
 nav ul{
