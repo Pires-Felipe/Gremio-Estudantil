@@ -1,0 +1,10 @@
+form {
+} 
+
+form label {
+    display: block;
+    font-size: 18px;
+}
+.input-padrao {
+    display: flex;
+}

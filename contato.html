@@ -21,6 +21,18 @@
         <li><a class="active" href="contato.html">Contato</a></li>
       </ul>
     </nav>
-    <section></section>
+    <form action="contato">
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" class="input-padrao" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" class="input-padrao" required placeholder="(00)000000000">
+   
+      <label for="mensagem"></label>
+      <textarea name="mensagem" id="mensagem" cols="70" rows="10"> required</textarea>   
+    </form>
   </body>
 </html>
