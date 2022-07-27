@@ -1,10 +1,19 @@
 form {
+    width: 90%;
+    margin: 35px auto;
 } 
 
 form label {
     display: block;
-    font-size: 18px;
+    font-size: 30px;
 }
+
 .input-padrao {
     display: flex;
+    width: 60%;
+    height: 35px;
+    font-size: 25px;
+    margin-block-end: 20px;
+    background: none;
+    border: 3px solid #514d4d;
 }
